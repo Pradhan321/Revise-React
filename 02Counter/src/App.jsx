@@ -23,11 +23,12 @@ function App() {
 
   return (
     <>
-      <h1>Counter game intiated by Avinash Pradhan</h1>
+      <h1>Counter Game </h1>
       <button onClick={addMe}>ADD ME : {count}</button>
       <br />
       <br />
       <button onClick={lessMe}>LESS ME : {count}</button>
+      <p>This game is designed by : <strong>Avinash Pradhan</strong></p>
     </>
   )
 }
